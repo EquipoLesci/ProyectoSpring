@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("../src/fondo.png");
+  background-attachment: fixed;
+}
+
+.navbar {
+  background-color: #050717 !important;
+}
+
+.section {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 50pt;
+  font-family: "Antonio", sans-serif;
+  color: white;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.home {
+  color: white;
+  text-decoration: none;
+}
+
+.home:hover {
+  color: #48b6a2 !important;
+}
+
+.logo_test img {
+  height: 7vh;
+  margin: 30px;
+}
+
+#contenedorCards {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px;
+}
+
+.card {
+  margin-bottom: 20px;
+  background: transparent !important;
+  color: white;
+  font-family: "Antonio", sans-serif;
+}
+
+.card-body{
+  display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 32px;
+    font-size: 26px;
+}
+
+p{
+  padding-top: 30px;
+}
+.card-title,
+.card-text {
+  font-family: "Antonio", sans-serif;
+  margin: 40px 0 40px;
+}
+
+
+h1{
+  color: white;
+  padding: 30px;
+}
+
+.footer {
+  height: 20vh;
+  background-color:rgba(0, 0, 0, 0.7);
+  opacity:70%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer p {
+  opacity:100%;
+  font-size: small;
+  color:white;
+}
+
+.footer img {
+  opacity:100%;
+  height:5vh;
+}
+
+.bi {
+  color: white;
+}
+

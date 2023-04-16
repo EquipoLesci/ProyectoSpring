@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Antonio:wght@600&display=swap");
+
+body {
+    background-image: url("../src/fondo.png");
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Antonio', sans-serif;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.button {
+    padding: 1rem 2rem;
+    background-color: #48B6A2;
+    opacity: 70%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 2px 2px #000000;
+    font-family: 'Antonio', sans-serif;
+    transition: transform 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    opacity:100%;
+}
